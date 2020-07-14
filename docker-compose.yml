@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  react_nginx:
+    image: ouhamzalhss/basic-react:build-latest
+    ports:
+      - 81:80
